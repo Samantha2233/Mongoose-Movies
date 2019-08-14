@@ -12,5 +12,5 @@ var movieSchema = new Schema({
     nowShowing: Boolean
 });
 
-// complie schema into a model and export it
+// compile schema into a model and export it
 module.exports = mongoose.model('Movie', movieSchema);
